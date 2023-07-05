@@ -6,4 +6,5 @@ const CreateCampaign = () => {
   )
 }
 
-export default CreateCampaign
+
+export default CreateCampaign;
