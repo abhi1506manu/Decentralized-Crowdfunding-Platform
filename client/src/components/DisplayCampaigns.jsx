@@ -7,9 +7,9 @@ import FundCard from "./FundCard";
 const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
   const navigate = useNavigate();
 
-  const handleNavigate = (campaign)=>{
-    navigate(`/campaign-details/${campaign.title}`,{state:campaign})
-  }
+  const handleNavigate = (campaign) => {
+    navigate(`/campaign-details/${campaign.title}`, { state: campaign });
+  };
 
   return (
     <div>
@@ -36,7 +36,7 @@ const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
             <FundCard
               key={campaigns.id}
               {...campaign}
-              handleClick={() => hadleNavigate(campaign)}
+              handleClick={() => handleNavigate(campaign)}
             />
           ))}
       </div>
