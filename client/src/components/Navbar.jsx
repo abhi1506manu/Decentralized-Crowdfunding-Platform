@@ -39,7 +39,7 @@ const Navbar = () => {
             if (address) {
               navigate("create-campaign");
             } else {
-              ("connect()");
+              (connect());
             }
           }}
         />
