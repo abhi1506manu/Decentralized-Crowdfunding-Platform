@@ -82,10 +82,10 @@ export const StateContextProvider = ({ children }) => {
 
     const parsedDonations = [];
 
-    for (let i = 0; i < numberOfDonations.length; i++) {
+    for (let i = 0; i < numberOfDonations; i++) {
       parsedDonations.push({
         donator:donations[0][i],
-        donation:ethers.utils.formatEther(donations[1][i].toString)
+        donation:ethers.utils.formatEther(donations[1][i].toString())
       })
       
     }

@@ -9,7 +9,7 @@ import { thirdweb } from "../assets";
 
 const CampaignDetails = () => {
   const { state } = useLocation();
-  const { getDonations, contract, address,donate } = useStateContext();
+  const { getDonations, contract, address, donate } = useStateContext();
 
   const [isLoading, setIsLoading] = useState(false);
   const [amount, setAmount] = useState(false);
@@ -26,6 +26,7 @@ const CampaignDetails = () => {
 
   const fetchDonators = async () => {
     const data = await getDonations(state.pId);
+    console.log(data);
 
     setDonators(data);
   };
@@ -113,7 +114,19 @@ const CampaignDetails = () => {
             </h4>
             <div className="mt-[20px] flex flex-col gap-4">
               {donators.length > 0 ? (
-                donators.map((item, index) => <div>Donators</div>)
+                donators.map((item, index) => (
+                  <div
+                    key={`${item.donator}-${index}`}
+                    className="flex justify-between items-center gap-4"
+                  >
+                    <p className="font-epilogue font-normal text-[16px] text-[#b2b3bd] leading-[26px] break-ll">
+                      {index + 1}. {item.donator}
+                    </p>
+                    <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] break-ll">
+                      {item.donation}
+                    </p>
+                  </div>
+                ))
               ) : (
                 <p className="font-epilogue font-normal text-[16px]  text-[#808191] leading-[26px] text-justify">
                   No donators yet. Be the first one.
