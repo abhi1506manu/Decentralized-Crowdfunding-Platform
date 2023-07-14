@@ -1,10 +1,11 @@
 # Decentralize Crowdfunding Platform
 
 ## Demo
+View the project 🎉
 * [Decentralized-crowd-platform](https://decentralized-crowdfunding-platform.netlify.app/)
 
 ## Screenshort
-![screenshort](https://github.com/abhi1506manu/DecentralizedCrowdfunding-Platform/blob/main/images/crowdfunding.png)
+![image](https://imgur.com/a/w9pmzGd)
 
 ## Technology Stack & Tools
 
