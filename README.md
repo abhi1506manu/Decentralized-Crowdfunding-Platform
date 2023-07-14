@@ -5,7 +5,7 @@ View the project 🎉
 * [Decentralized-crowd-platform](https://decentralized-crowdfunding-platform.netlify.app/)
 
 ## Screenshort
-![image](https://imgur.com/a/w9pmzGd)
+![Image](https://i.imgur.com/HjK7Srv.png)
 
 ## Technology Stack & Tools
 
