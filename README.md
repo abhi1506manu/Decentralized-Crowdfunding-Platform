@@ -1,4 +1,4 @@
-# Decentralize Crowdfunding Platform
+# Decentralized Crowdfunding Platform
 
 ## Demo
 View the project 🎉
