@@ -7,7 +7,7 @@
 
 ### 1. Clone/Download the Repository
 ```
-$ git clone https://github.com/abhi1506manu/Crowdfunding-Platform.git
+$ git clone https://github.com/abhi1506manu/Decentralized-Crowdfunding-Platform.git
 ```
 
 ### 2. Install Dependencies
