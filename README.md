@@ -2,7 +2,7 @@
 
 ## Demo
 View the project 🎉
-* [Decentralized-crowd-platform](https://decentralized-crowdfunding-platform.netlify.app/)
+* [Decentralized-Crowdfunding-Platform](https://decentralized-crowdfunding-platform.netlify.app/)
 
 ## Screenshort
 ![Image](https://i.imgur.com/HjK7Srv.png)
@@ -22,7 +22,7 @@ View the project 🎉
 ### 1. Clone the Repository
 
 ```
-$ git clone https://github.com/abhi1506manu/Crowdfunding-Platform.git
+$ git clone https://github.com/abhi1506manu/Decentralized-Crowdfunding-Platform.git
 ```
 
 ### 2. Install Dependencies
